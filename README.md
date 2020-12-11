@@ -1,24 +1,24 @@
 # ebook
 我的小书单
-###Github 上传100M 以上文件解决方案
+### Github 上传100M 以上文件解决方案
 
--下载git-lfs-windows
+- 下载git-lfs-windows
 
--在git bash here 中运行 git lfs install
+- 在git bash here 中运行 git lfs install
 
--git lfs track '*.pdf'
+- git lfs track '*.pdf'
 
--git ass .gitattributes
+- git ass .gitattributes
  
--git add .
+- git add .
 
--git commit -m 'ebook'
+- git commit -m 'ebook'
 
--git push origin main
+- git push origin main
 
 
 
-###算法
+### 算法
 ----
 1. 算法图解
 
