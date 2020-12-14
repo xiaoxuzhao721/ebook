@@ -14,6 +14,8 @@
 
 - git commit -m 'ebook'
 
+- git pull --rebase origin main
+
 - git push origin main
 
 ### Markdown语法
