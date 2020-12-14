@@ -12,5 +12,4 @@ import seaborn as sns
 import statsmodels as sm
 
 import bisect #bisect.bisect 可以找到插入值后仍保证排序的位置，bisect.insort是向这个位置插入值
-
 `
