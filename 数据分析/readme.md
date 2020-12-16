@@ -31,17 +31,17 @@ import bisect #bisect.bisect 可以找到插入值后仍保证排序的位置，
 - 滤除缺失数据
 1. dropna  
 
-df.dropna()丢弃任何含有缺失值的行
+- df.dropna()丢弃任何含有缺失值的行
 
-df.dropna(how='all')丢弃全为NA的那些行
+- df.dropna(how='all')丢弃全为NA的那些行
 
-df.dropna(axis = 1,how = 'all')丢弃全为NA的那些列
+- df.dropna(axis = 1,how = 'all')丢弃全为NA的那些列
 
-df.dropna(thresh =n)保留至少有n个非NaN数据的行/列
+- df.dropna(thresh =n)保留至少有n个非NaN数据的行/列
 
 2. isnull/notnull
 
-df\[df.notnull()]
+- df\[df.notnull()]
 - 填充缺失数据
 
 1. fillna
