@@ -29,15 +29,17 @@ import bisect #bisect.bisect 可以找到插入值后仍保证排序的位置，
 - reversed :从后向前迭代一个序列
 ## 数据清洗和准备
 - 滤除缺失数据
-1. dropna 
+1. dropna  
+
 df.dropna()丢弃任何含有缺失值的行
 df.dropna(how='all')丢弃全为NA的那些行
 df.dropna(axis = 1,how = 'all')丢弃全为NA的那些列
 df.dropna(thresh =n)保留至少有n个非NaN数据的行/列
-2.isnull/notnull
+2. isnull/notnull
+
 df\[df.notnull()]
 - 填充缺失数据
-1.fillna
+1. fillna
 df.fillna(n)全部缺失值用常数n填充
 df.fillna({列名1：value1,列名2：value2})根据列名填充不同的值
 df.fillna(df.mean())填充平均值或者中位数
