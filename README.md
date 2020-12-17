@@ -8,7 +8,7 @@
 
 - git lfs track '*.pdf'
 
-- git ass .gitattributes
+- git add .gitattributes
  
 - git add .
 
