@@ -40,8 +40,8 @@ df\[df.notnull()]
 - 填充缺失数据
 
 1. fillna
-df.fillna(n)全部缺失值用常数n填充
-df.fillna({列名1：value1,列名2：value2})根据列名填充不同的值
+df.fillna(n)全部缺失值用常数n填充\n
+df.fillna({列名1：value1,列名2：value2})根据列名填充不同的值\n
 df.fillna(df.mean())填充平均值或者中位数
 
 - 移除重复数据
