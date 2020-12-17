@@ -40,16 +40,22 @@ df\[df.notnull()]
 - 填充缺失数据
 
 1. fillna
-df.fillna(n)全部缺失值用常数n填充\n
-df.fillna({列名1：value1,列名2：value2})根据列名填充不同的值\n
+df.fillna(n)全部缺失值用常数n填充
+
+df.fillna({列名1：value1,列名2：value2})根据列名填充不同的值
+
 df.fillna(df.mean())填充平均值或者中位数
 
 - 移除重复数据
 
  df.duplicated()
+ 
  df.drop_duplicates()重复的数组会标为False
+ 
  df.drop_duplicates([列名])根据某一列过滤重复项
+ 
  df.drop_duplicates(\[列名1，列名2],keep='last')默认保留第一个出现的组合，传入keep='last'则保留最后一个
+ 
 - 数据转换
 
 map方法，可以接受一个函数或者含有映射关系的字典
@@ -71,4 +77,4 @@ pd.cut()
 ### 正则表达式-元字符
 |字符|描述|
 |---|---|
-|\|转义|
+|\\|转义|
