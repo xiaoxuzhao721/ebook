@@ -45,16 +45,13 @@ import bisect #bisect.bisect 可以找到插入值后仍保证排序的位置，
 - 填充缺失数据
 
 1. fillna
-
- &nbsp; df.fillna(n)全部缺失值用常数n填充
-
- &nbsp; df.fillna({列名1：value1,列名2：value2})根据列名填充不同的值
-
- &nbsp; df.fillna(df.mean())填充平均值或者中位数
+df.fillna(n)全部缺失值用常数n填充
+df.fillna({列名1：value1,列名2：value2})根据列名填充不同的值
+df.fillna(df.mean())填充平均值或者中位数
 
 - 移除重复数据
 
- &nbsp; df.duplicated()
+ df.duplicated()
 
  &nbsp; df.drop_duplicates()重复的数组会标为False
 
