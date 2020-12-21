@@ -92,7 +92,22 @@ import bisect #bisect.bisect 可以找到插入值后仍保证排序的位置，
 |?<= |向后查找|
 |?!  |负向前查找|
 |?<! |负向后查找|
-
+### re模块函数
+1. 查找一个匹配项
+- search:查找任意位置的匹配项
+- match:必须从字符串开头匹配
+- fullmatch:整个字符串与正则完全匹配
+2. 查找多个匹配项
+- findall从字符串任意位置查找，返回一个列表
+- finditer从字符串任意位置查找，返回一个迭代器
+3. 分割
+- split
+4. 替换
+- sub
+- subn
+5. 编译正则对象
+- compile
+- template，增加了re.TEMPLATE模式（re.I,re.A,re.S,re.M,re.X）
 
 
 
