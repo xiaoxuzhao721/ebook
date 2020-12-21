@@ -98,16 +98,17 @@ import bisect #bisect.bisect 可以找到插入值后仍保证排序的位置，
 - match:必须从字符串开头匹配
 - fullmatch:整个字符串与正则完全匹配
 2. 查找多个匹配项
-- findall从字符串任意位置查找，返回一个列表
-- finditer从字符串任意位置查找，返回一个迭代器
+- findall:从字符串任意位置查找，返回一个列表
+- finditer:从字符串任意位置查找，返回一个迭代器
 3. 分割
-- split
+- split:用正则表达式将某字符串分割成多段
+- str.split
 4. 替换
-- sub
-- subn
+- sub替换掉某字符串中被正则表达式匹配的字符，返回替换后的字符串
+- subn替换掉某字符串中被正则表达式匹配的字符，返回替换后的字符串和替换次数
 5. 编译正则对象
-- compile
-- template，增加了re.TEMPLATE模式（re.I,re.A,re.S,re.M,re.X）
+- compile：将正则表达式的样式编译为一个正则表达式对象
+- template：将正则表达式的样式编译为一个正则表达式对象，增加了re.TEMPLATE模式（re.I,re.A,re.S,re.M,re.X）
 
 
 
